@@ -6,8 +6,45 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
+
+/* Headings */
+
+.top-h1 {
+    font-size: 4rem;
+    line-height: 1.5;
+}
+.h3-features {
+    font-size: 1.5rem;
+}
+.testimonials-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.h3-pricing {
+    font-size: 1.5rem;
+}
+.h3-cta {
+    font-size: 3rem;
+}
+/* Containers  */
+
 .container-fluid {
     padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: #fff;
 }
 
 /* Navigation Bar */
@@ -31,14 +68,9 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Title Section */
 
-#title {
-    background-color: #ff4c68;
-    color: white;
-    text-align: left;
-}
-
 #title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 
 /* Download buttons */
@@ -58,15 +90,10 @@ h1,h2,h3,h4,h5,h6 {
 .iphone.parent {
     position: relative;
 }
-.top-h1 {
-    font-size: 4rem;
-    line-height: 1.5;
-}
 
 /* Features */
 
 #features {
-    background-color: #fff;
     position: relative;
 }
 .features3 {
@@ -75,9 +102,6 @@ h1,h2,h3,h4,h5,h6 {
 .p-features {
     font-size: 1rem;
     color: #8f8f8f;
-}
-.h3-features {
-    font-size: 1.5rem;
 }
 .icons3 {
     
@@ -91,21 +115,16 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Testomonial Section */
 
-#testimonials {
+#testimonials, #press {
     background-color: #ef8172;
-    color: #fff;
 }
-.testimonials-text {
-    font-size: 3rem;
-    line-height: 1.5;
-}
+
 .testimonial-img {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
 }
 #press {
-    background-color: #ef8172;
     padding-bottom: 3%; 
 }
 .press-logo {
@@ -121,29 +140,12 @@ h1,h2,h3,h4,h5,h6 {
 .pricing-column {
     padding: 3% 2%;
 }
-.pricing-text {
-    font-size: 3rem;
-    line-height: 1.5;
-}
-.h3-pricing {
-    font-size: 1.5rem;
-}
+
 /* CTA Section */
-
-#cta {
-    background-color: #ff4c68;
-}
-
-.h3-cta {
-    font-size: 3rem;
-    color: #fff;
-}
-
 
 /* Footer Section */
 
 #footer {
-    background-color: #fff;
     padding: 5% 10% 5%;
 }
 
@@ -162,6 +164,7 @@ h1,h2,h3,h4,h5,h6 {
     .iphone6 {
         position: static;
         transform: rotate(0);
+        width: 60%;
     }
 }
 
