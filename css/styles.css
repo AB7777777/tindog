@@ -55,6 +55,9 @@ h1,h2,h3,h4,h5,h6 {
     position: absolute;
     right: 25%;
 }
+.iphone.parent {
+    position: relative;
+}
 .top-h1 {
     font-size: 4rem;
     line-height: 1.5;
@@ -152,7 +155,7 @@ h1,h2,h3,h4,h5,h6 {
     color: #8f8f8f;
 }
 
-@media (max-width:1028px) {
+@media (max-width:1428px) {
     #title {
         text-align: center;
     }
